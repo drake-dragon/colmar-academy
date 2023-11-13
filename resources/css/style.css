@@ -1,0 +1,120 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 64px;
+    margin: 0 24px;
+}
+
+button {
+    color: white;
+    background-color: #444;
+    width: 200px;
+    padding: 8px;
+}
+
+/* TEXTS */
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logo {
+    height: 32px;
+}
+
+.logo p {
+    display: inline;
+    height: 32px;
+}
+
+nav ul {
+    display: inline;
+    text-align: right;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    text-align: right;
+    margin-left: 16px;
+}
+
+a {
+    color: #8bf;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+    transition: color 1s ease;
+}
+
+/* SECTION ONE */
+
+.one {
+    display: flex;
+    padding: 32px 24px;
+    background-color: #bbb;
+    align-items: center;
+}
+
+.one-left {
+    flex: 6 6 60%;
+    margin-right: 24px;
+}
+
+.one-left img {
+    max-width: 100%;
+}
+
+.one-right {
+    flex: 4 4 40%;
+    margin: 24px;
+}
+
+/* SECTION TWO */
+
+.two {
+    display: flex;
+    padding: 32px 24px;
+
+}
+
+.two-left {
+    max-width: 60%;
+    margin-right: 24px;
+}
+
+.two-left img {
+    max-width: 100%;
+}
+
+.two-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.two-r-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+}
+
+.two-r-box img {
+    flex-basis: 35%;
+    margin: 16px;
+    height: auto;
+}
+
+.two-r-box-info {
+    flex-basis: 65%;
+    margin: 16px;
+}
